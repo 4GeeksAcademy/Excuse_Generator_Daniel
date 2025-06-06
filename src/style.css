@@ -1,5 +1,33 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background-image: url('https://i.pinimg.com/736x/2c/dc/06/2cdc06c5565ff3fb2c66523e11c0e4cd.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    
+}
+#excuse {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid rgb(50, 52, 80);
+  border-radius: 12px;
+  background-color: #bebfc0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #053449;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+#excuse {
+  font-size: 1.2rem;
+  margin: 0;
 }
